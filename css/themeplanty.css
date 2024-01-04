@@ -1,15 +1,91 @@
+body{
+   min-width: 2000px;
+}
 /* HEADER */
 
 #header {
 
     display: flex;
+    justify-content: space-between;
+    height: 80px;
+
 
  }
 
-#menu {
+ul{
 
     display: flex;
+    
+}
+
+li{
+
+   padding-top: 30px;
+   margin-left: 30px;
+}
+
+#menu{
+      
+      text-align: center;
+      height: 80px;
+    
+      
+
+}
+
+a{
+
+   text-decoration: none;
+   
+   
+}
+
+.commander {
+
+   width: 236px;
+   background-color: #DC9F96;
+   height: 80px;
+   ;
+}
+
+.commander a{
+
+   color: white;
+}
+      
+
+
+
+ #site-title img{
+
+    width: 201px;
+    height: 19px;
+    margin-top: 31px;
+    margin-left: 37px;
+    object-fit: cover;
 
  }
+
+ /* FOOTER */
+
+ #footer{
+
+    display: flex;
+    justify-content: center;
+    height: 60px;
+
+ }
+
+ #footer p{
+
+   margin-top: 25px;
+   size: 16px;
+}
+
+ 
+
+
+
+ 
  
  
