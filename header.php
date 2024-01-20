@@ -14,13 +14,20 @@
   <a href="http://localhost/wordpress/"><img src="<?= get_stylesheet_directory_uri() . "/images/Logo source.png"?>" alt="logo" ></a>
   </div>
  </div>
- <nav id="menu">
-  <ul>
-    <li class="contacter"><a href="localhost/wordpress/nous-rencontrer/" title="contacter">Nous contacter</a></li>
-    <li class="admin"><a href="" title="admin">Admin</a></li>
-    <li class="commander"><a href="localhost/wordpress/commander/" title="commander">Commander</a></li>
-  </ul>
- </nav>
+
+ <div class="menuderoulant">
+ <button class="deroulant">MENU</button>
+  <?php
+  wp_nav_menu(
+    [
+      "theme_location"=>"main-menu",
+      "container"=>"nav",
+      "container_id"=>"menu",
+      "menu_class"=>"menu",
+    ]
+  ); 
+  ?>
+  </div>
 </header>
 <div id="container">
 <main id="content" role="main">

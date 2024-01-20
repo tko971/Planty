@@ -1,7 +1,7 @@
 </main>
 </div>
 <footer id="footer" role="contentinfo">
-<div id="copyright">
+<div id="mentions">
   <p> Mentions légales </p>
 </div>
 </footer>

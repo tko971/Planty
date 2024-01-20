@@ -1,7 +1,19 @@
-body{
-   min-width: 2000px;
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+   font-family: 'Syne', sans-serif;
+   
+   
 }
+
 /* HEADER */
+
+#wrapper{
+
+   max-width: 1440px;
+   margin: 0 auto; 
+   width: 100%;
+}
 
 #header {
 
@@ -12,9 +24,17 @@ body{
 
  }
 
+ .deroulant {
+
+  display: none;
+
+ }
+
 ul{
 
     display: flex;
+    grid-gap:32px;
+    margin-top: 3px;
     
 }
 
@@ -22,33 +42,48 @@ li{
 
    padding-top: 30px;
    margin-left: 30px;
+   list-style-type: none;
+
 }
 
 #menu{
       
-      text-align: center;
-      height: 80px;
-    
-      
+    text-align: center;
+    height: 80px;                                                        
 
 }
 
 a{
 
    text-decoration: none;
-   
+   color: black;
+   font-size: 16px;
    
 }
 
-.commander {
+.menuadmin {
+
+   order:1;
+
+}
+
+.menucommander {
 
    width: 236px;
    background-color: #DC9F96;
    height: 80px;
-   ;
+   order:2;
+   margin-top: -3px;
 }
 
-.commander a{
+.menucommander:hover {
+
+  background-color: #C02E44;
+  opacity: 1;
+  
+}
+
+.menucommander a{
 
    color: white;
 }
@@ -58,11 +93,11 @@ a{
 
  #site-title img{
 
-    width: 201px;
-    height: 19px;
-    margin-top: 31px;
-    margin-left: 37px;
-    object-fit: cover;
+   width: 201px;
+   height: 19px;
+   margin-top: 31px;
+   margin-left: 37px;
+   object-fit: cover;
 
  }
 
@@ -70,9 +105,9 @@ a{
 
  #footer{
 
-    display: flex;
-    justify-content: center;
-    height: 60px;
+   display: flex;
+   justify-content: center;
+   height: 60px;
 
  }
 
@@ -83,9 +118,715 @@ a{
 }
 
  
+/* ----------------------------------------------- */
 
 
 
- 
- 
- 
+
+
+        /* ACCUEIL */
+
+/* BOISSON ENERGISANTES */
+
+.boissonfeuilles {
+  
+  justify-content:center;
+  padding-top:48px;
+  padding-left:5px;	
+  
+}
+
+.feuilleg {
+  
+  position: relative;
+  left: 196px;	
+  top: 34px;
+  
+  
+}
+
+.feuilled {
+  
+position: relative;
+right: 208px;	
+top: 34px	;
+  
+}
+
+.canette {
+  
+z-index: 1;
+  
+}
+
+.boissonenergie {
+  
+border-radius : 10% 10% 60% 60% / 0% 0% 10% 10%;
+margin-bottom:75px;
+height:918px;	
+padding-top:110px;
+border-bottom:solid;
+border-width:8px;
+border-bottom-color:	#E2D7CF;
+  
+}
+
+.boissonenergie h2{
+  
+  margin-bottom:6px;
+  margin-right:10px;
+  
+}
+
+.energieplante p{
+  
+  margin-top:45px;
+  padding-left:5px;
+  padding-right:5px;
+  width:472px;
+
+}
+
+/* GOUTS */
+
+.lesgouts{
+  
+  margin-top:127px;
+  padding-top:58px;
+  padding-bottom: 25px;
+  justify-content:space-between;
+  border-radius : 10% 10% 60% 60% / 0% 0% 2% 2%; 
+  display:flex;
+     
+}
+
+.lesgouts p{
+  
+  margin-top: 13px;
+  
+}
+
+.lesgouts button{
+  
+  margin-bottom: 13px;
+  
+}
+
+.lesgoutsp{
+
+    width: 497px;
+    height: 120px;
+    text-transform: none;
+    margin-bottom:30px;
+}
+
+.lesgouts a{
+  
+  margin-top:70px;
+  width:198px;
+  height:55px;
+  padding-top:20px;
+  
+}
+
+.goutfruits{
+  
+  width:816px;
+  margin-top: 30px;
+  
+}
+
+.img {
+  
+  width:100%;
+  margin-top:18px;	
+  
+}
+
+.fruitcolonne1{
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+}
+
+
+
+/* CE QUILS PENSENT */
+
+.avis{
+  
+  margin-top:120px;
+  margin-bottom:80px;
+  
+}
+
+.lesavis{
+  
+  grid-gap:70px;
+  padding-top:80px
+
+}
+
+     /* PAGE NOUS RENCONTRER */
+
+/* NOUS RENCONTRER */
+
+.nousrencontrer {
+  
+  height:415px;
+  padding-top:100px;
+  border-radius: 56% 25% 44% 44% / 0% 0% 18% 18% ;
+  padding-right:160px;
+  margin-bottom:65px;
+  
+  
+}
+
+.nousrencontrer p {
+  
+  margin-top:32px;
+  width:669px;
+  
+}
+
+
+.nousrencontrer img {
+  
+  margin-bottom:170px;
+  margin-right:50px;
+    
+}
+
+/* EQUIPE */
+
+.equipe h2 {
+  
+  margin-top:50px;
+  
+}
+
+.photoequipe h1 {
+  
+  margin-top:22px;
+  margin-bottom:20px;
+  
+}
+
+.photoequipe {
+  
+  grid-gap:160px;
+  padding-left:240px;
+  padding-bottom: 30px;
+  
+  
+  
+}
+
+.equipefeuille {
+  
+  position:relative;
+  margin-top:170px;
+  margin-left:50px;
+  
+}
+
+/* NOUS contacter */
+
+.nouscontacter2{
+  
+  padding-top:70px;
+
+}
+
+.nouscontacter2 textarea{
+  
+  width:383px;
+  border:none;
+  border-radius:5px;
+  margin-bottom:10px;
+  margin-top:10px;
+  height:237px;
+  resize: none;
+  
+  
+}
+
+.nouscontacter2 input{
+  
+  border:none;
+  height:71px;
+  width:383px;
+  border-radius:5px;
+  margin-bottom:35px;
+  margin-top:10px;
+}
+
+.nouscontacter2 h2{
+  
+  margin-bottom:48px;
+  
+}
+
+.nouscontacter2 a {
+  
+  height:55px;
+  padding-top:20px;
+  width:198px;
+  
+}
+
+.nouscontactbouton[type="submit"]{
+
+  width:198px;
+  height: 55px;
+  margin-left: 95px;
+  background-color: #E0B9B4;
+  color: white;
+  font-size: 15px;
+
+}
+
+.nouscontacter2 img{
+  
+  position:absolute;
+  margin-left: -78px;
+  margin-top: 88px;
+  
+  
+}
+
+.footercontactimg{
+  
+  padding-top:45px;
+  
+}
+
+      /* PAGE COMMANDER */
+
+.commanderpage{
+  
+padding-top:70px;
+  
+}
+
+.commanderpage h2{
+  
+  padding-bottom: 62px;
+
+  
+}
+
+/* Votre commande */
+
+.votrecommande{
+
+  display: flex;
+
+}
+
+.votrecommande h3{
+
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-bottom:42px;
+  margin-left:292px;
+
+
+}
+
+/* Informations Livraison */
+
+.nombreproduits{
+  
+ display: flex;
+ justify-content: center;
+ max-width: 1440px;
+ width: 100%;
+  
+}
+
+.tousproduits{
+
+  display: flex;
+  max-width: 856px;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+}
+
+.fruitnombre{
+
+  max-width: 192px;
+  width: 100%;
+}
+
+.formsetbouton{
+
+  max-width: 1440px;
+  width: 100%;
+}
+
+.hr1{
+
+width: 860px;
+height: 1px;
+border: none;
+background-color: white;
+margin-bottom: 55px;
+margin-top: 9px;
+
+}
+
+.hr0{
+
+  width: 860px;
+  height: 1px;
+  border: none;
+  background-color: white;
+  margin-bottom: 42px;
+  }
+
+.hr2{
+
+  width: 1px;
+  height: 447px;
+  border: none;
+  background-color: white;
+  margin: 0;
+
+  }
+
+.nombreproduits p{
+  
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  
+  
+}
+
+.nombreproduits input {
+
+  border:none;
+  height:56px;
+  width:39px;
+  margin-top:14px;
+  margin-bottom:33px;
+}
+
+.butt{
+
+display: flex;
+justify-content: center;
+margin-left: 90px;
+
+}
+
+#commanderboutons {
+
+  width: 198px;
+  height: 55px;
+  background-color: #E0B9B4;
+  color: white;
+  border-radius:7px;
+  border: none;
+  margin-bottom: 90px;
+  
+}
+
+.num{
+
+  display: flex;
+  justify-content: center;
+}
+
+.num input{
+
+  padding-left: 15px;
+}
+
+.fraise{
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png");
+  height: 128px;
+  background-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pamplemousse{
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/estudio-bloom-tOitjphtIXU-unsplash-1.png");
+  height: 128px;
+  background-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.framboise{
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png");
+  height: 128px;
+  background-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.citron{
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/estudio-bloom-ezqnxsqUZ80-unsplash-1.png");
+  height: 128px;
+  background-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms input{
+  
+  border:none;
+  height:71px;
+  width:383px;
+  border-radius:7px;
+  margin-top:14px;
+  margin-bottom:33px;
+
+}
+
+.forms  {
+  
+  color:white;
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 10px;;
+  
+  
+}
+
+.forms h3{
+  
+  margin-bottom:30px;
+  font-size: 35px;
+  font-weight: 700;
+  
+}
+
+
+
+
+@media screen and (max-width: 1060px){
+
+   .nousrencontrer img{
+
+      display: none;
+      
+   }
+
+   .nousrencontrerh2{
+
+      padding-left: 150px;
+      
+   }
+
+  .deroulant {
+
+    background-color: #DC9F96;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    border: none;
+    height: 80px;
+    color: white;
+    
+  
+  }
+
+  .menucommander {
+
+    width: 100%;
+    background-color:transparent;
+    height: 100%;
+    padding-right: 30px;
+ }
+
+ .menucommander:hover {
+
+  background-color:#E2D7CF;
+  opacity: 1;
+  
+}
+
+  .menuderoulant:hover .menu{
+
+    display:block;
+    background-color:#E2D7CF;
+    top:-3px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+  
+  }
+
+ .menuderoulant .menu a:hover{
+
+  color: #C02E44;
+ }
+
+ .menu{
+
+    display: none;
+  
+  }
+
+  .menu a{
+
+    display: block;
+    background-color:#E2D7CF;
+    color: white;
+  }
+
+  .menu{
+
+    position: relative;
+    top:-30px;
+  }
+
+  .forms{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .tousproduits{
+		
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+ .hr2{
+
+  display: none;
+
+ }
+
+ .menucommander:hover {
+
+  color: #C02E44;
+  
+    
+}
+
+}
+
+
+@media screen and (max-width: 1300px){
+
+   .equipefeuille {
+  
+      position:absolute;
+      margin-left:500px;
+      
+      
+   }
+
+   .photoequipe {
+  
+      display: flex;
+      flex-direction: column;
+      padding-right: 230px;
+      padding-top: 100px;
+      
+      
+   }
+
+   .equipecol{
+
+      width: 200px;
+
+   }
+
+   .is-style-wide1{
+  
+      position:absolute;
+      margin-left:-999em;     
+      
+      
+   }
+
+   .tousproduits{
+      
+    column-count: 2;
+    display: inline-block;
+    margin-left: 200px;
+
+   }
+}
+
+@media screen and (max-width: 768px){
+
+.goutfruits{
+  
+   width:100%;
+      
+}
+
+.lesavis{
+
+   width: 50%;
+}
+
+.feuilled {
+   width: 0px;
+}
+
+.feuilleg {
+   width: 0px;
+}
+
+.votrecommande h3{
+
+  margin-left: 75px;
+
+}
+
+.tousproduits{
+      
+  column-count: 1;
+  display: inline-block;
+  margin-left: 150px;
+
+ }
+
+.boissonp {
+
+  font-size: 25px;
+
+}
+
+h2 {
+  font-size: 25px !important;
+}
+
+h3 {
+  font-size: 20px !important;
+}
+
+.nousrencontrer p {
+  
+  width: 80%;
+}
+
+
+}
+
