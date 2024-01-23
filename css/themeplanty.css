@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+
 body * {
+
    font-family: 'Syne', sans-serif;
-   
    
 }
 
@@ -21,14 +22,13 @@ body * {
     justify-content: space-between;
     height: 80px;
 
-
- }
+}
 
  .deroulant {
 
   display: none;
 
- }
+}
 
 ul{
 
@@ -57,7 +57,7 @@ a{
 
    text-decoration: none;
    color: black;
-   font-size: 16px;
+   
    
 }
 
@@ -74,7 +74,9 @@ a{
    height: 80px;
    order:2;
    margin-top: -3px;
+   
 }
+
 
 .menucommander:hover {
 
@@ -86,17 +88,17 @@ a{
 .menucommander a{
 
    color: white;
+   font-size: 16px;
+   font-weight: 700;
+   
 }
       
+#site-title img{
 
-
-
- #site-title img{
-
-   width: 201px;
+   width: 228px;
    height: 19px;
    margin-top: 31px;
-   margin-left: 37px;
+   margin-left: 22px;
    object-fit: cover;
 
  }
@@ -114,15 +116,8 @@ a{
  #footer p{
 
    margin-top: 25px;
-   size: 16px;
+   font-size: 16px;
 }
-
- 
-/* ----------------------------------------------- */
-
-
-
-
 
         /* ACCUEIL */
 
@@ -142,7 +137,6 @@ a{
   left: 196px;	
   top: 34px;
   
-  
 }
 
 .feuilled {
@@ -161,7 +155,7 @@ z-index: 1;
 
 .boissonenergie {
   
-border-radius : 10% 10% 60% 60% / 0% 0% 10% 10%;
+border-radius : 10% 10% 80% 80% / 0% 0% 10% 10%;
 margin-bottom:75px;
 height:918px;	
 padding-top:110px;
@@ -184,6 +178,8 @@ border-bottom-color:	#E2D7CF;
   padding-left:5px;
   padding-right:5px;
   width:472px;
+  line-height: 24px;
+  margin-left: 15px;
 
 }
 
@@ -206,12 +202,6 @@ border-bottom-color:	#E2D7CF;
   
 }
 
-.lesgouts button{
-  
-  margin-bottom: 13px;
-  
-}
-
 .lesgoutsp{
 
     width: 497px;
@@ -222,7 +212,8 @@ border-bottom-color:	#E2D7CF;
 
 .lesgouts a{
   
-  margin-top:70px;
+  margin-top:48px;
+  margin-bottom: 20px ;
   width:198px;
   height:55px;
   padding-top:20px;
@@ -250,8 +241,6 @@ border-bottom-color:	#E2D7CF;
   row-gap: 23px;
 }
 
-
-
 /* CE QUILS PENSENT */
 
 .avis{
@@ -268,7 +257,7 @@ border-bottom-color:	#E2D7CF;
 
 }
 
-     /* PAGE NOUS RENCONTRER */
+    /* PAGE NOUS RENCONTRER */
 
 /* NOUS RENCONTRER */
 
@@ -277,9 +266,8 @@ border-bottom-color:	#E2D7CF;
   height:415px;
   padding-top:100px;
   border-radius: 56% 25% 44% 44% / 0% 0% 18% 18% ;
-  padding-right:160px;
+  padding-right:245px;
   margin-bottom:65px;
-  
   
 }
 
@@ -290,11 +278,11 @@ border-bottom-color:	#E2D7CF;
   
 }
 
-
 .nousrencontrer img {
   
   margin-bottom:170px;
   margin-right:50px;
+  width: 190px;
     
 }
 
@@ -319,8 +307,6 @@ border-bottom-color:	#E2D7CF;
   padding-left:240px;
   padding-bottom: 30px;
   
-  
-  
 }
 
 .equipefeuille {
@@ -339,6 +325,12 @@ border-bottom-color:	#E2D7CF;
 
 }
 
+.nouscontacter2 label{
+  
+  font-size: larger;
+
+}
+
 .nouscontacter2 textarea{
   
   width:383px;
@@ -348,7 +340,6 @@ border-bottom-color:	#E2D7CF;
   margin-top:10px;
   height:237px;
   resize: none;
-  
   
 }
 
@@ -360,6 +351,7 @@ border-bottom-color:	#E2D7CF;
   border-radius:5px;
   margin-bottom:35px;
   margin-top:10px;
+
 }
 
 .nouscontacter2 h2{
@@ -393,12 +385,11 @@ border-bottom-color:	#E2D7CF;
   margin-left: -78px;
   margin-top: 88px;
   
-  
 }
 
 .footercontactimg{
   
-  padding-top:45px;
+  padding-top:9px;
   
 }
 
@@ -414,7 +405,6 @@ padding-top:70px;
   
   padding-bottom: 62px;
 
-  
 }
 
 /* Votre commande */
@@ -432,7 +422,6 @@ padding-top:70px;
   color: white;
   margin-bottom:42px;
   margin-left:292px;
-
 
 }
 
@@ -454,18 +443,21 @@ padding-top:70px;
   width: 100%;
   justify-content: center;
   gap: 30px;
+
 }
 
 .fruitnombre{
 
   max-width: 192px;
   width: 100%;
+
 }
 
 .formsetbouton{
 
   max-width: 1440px;
   width: 100%;
+
 }
 
 .hr1{
@@ -486,7 +478,8 @@ margin-top: 9px;
   border: none;
   background-color: white;
   margin-bottom: 42px;
-  }
+
+}
 
 .hr2{
 
@@ -496,7 +489,7 @@ margin-top: 9px;
   background-color: white;
   margin: 0;
 
-  }
+}
 
 .nombreproduits p{
   
@@ -504,7 +497,6 @@ margin-top: 9px;
   font-size: 20px;
   font-weight: 800;
   text-align: center;
-  
   
 }
 
@@ -515,6 +507,7 @@ margin-top: 9px;
   width:39px;
   margin-top:14px;
   margin-bottom:33px;
+
 }
 
 .butt{
@@ -534,54 +527,65 @@ margin-left: 90px;
   border-radius:7px;
   border: none;
   margin-bottom: 90px;
-  
+  font-size: 15px;
+
 }
 
 .num{
 
   display: flex;
   justify-content: center;
+
 }
 
 .num input{
 
   padding-left: 15px;
+
 }
 
 .fraise{
+
   background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png");
   height: 128px;
   background-size: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .pamplemousse{
+
   background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/estudio-bloom-tOitjphtIXU-unsplash-1.png");
   height: 128px;
   background-size: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .framboise{
+
   background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png");
   height: 128px;
   background-size: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .citron{
+
   background-image: url("http://localhost/wordpress/wp-content/uploads/2023/12/estudio-bloom-ezqnxsqUZ80-unsplash-1.png");
   height: 128px;
   background-size: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .forms input{
@@ -606,13 +610,12 @@ margin-left: 90px;
   max-width: 1440px;
   margin-bottom: 10px;;
   
-  
 }
 
 .forms h3{
   
   margin-bottom:30px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   
 }
@@ -644,7 +647,6 @@ margin-left: 90px;
     height: 80px;
     color: white;
     
-  
   }
 
   .menucommander {
@@ -653,6 +655,7 @@ margin-left: 90px;
     background-color:transparent;
     height: 100%;
     padding-right: 30px;
+
  }
 
  .menucommander:hover {
@@ -675,6 +678,7 @@ margin-left: 90px;
  .menuderoulant .menu a:hover{
 
   color: #C02E44;
+
  }
 
  .menu{
@@ -688,12 +692,14 @@ margin-left: 90px;
     display: block;
     background-color:#E2D7CF;
     color: white;
+
   }
 
   .menu{
 
     position: relative;
     top:-30px;
+
   }
 
   .forms{
@@ -724,7 +730,6 @@ margin-left: 90px;
 
   color: #C02E44;
   
-    
 }
 
 }
@@ -737,8 +742,7 @@ margin-left: 90px;
       position:absolute;
       margin-left:500px;
       
-      
-   }
+      }
 
    .photoequipe {
   
@@ -747,8 +751,7 @@ margin-left: 90px;
       padding-right: 230px;
       padding-top: 100px;
       
-      
-   }
+      }
 
    .equipecol{
 
@@ -761,16 +764,26 @@ margin-left: 90px;
       position:absolute;
       margin-left:-999em;     
       
-      
-   }
+      }
 
    .tousproduits{
       
-    column-count: 2;
-    display: inline-block;
-    margin-left: 200px;
+      display: flex;
+      max-width: 600px;
+      width: 100%;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+     }
+
+   .votrecommande {
+    display: flex;
+    justify-content: center;
+    margin-left: -292px;
 
    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -784,29 +797,20 @@ margin-left: 90px;
 .lesavis{
 
    width: 50%;
+
 }
 
 .feuilled {
+
    width: 0px;
+
 }
 
 .feuilleg {
+
    width: 0px;
-}
-
-.votrecommande h3{
-
-  margin-left: 75px;
 
 }
-
-.tousproduits{
-      
-  column-count: 1;
-  display: inline-block;
-  margin-left: 150px;
-
- }
 
 .boissonp {
 
@@ -815,16 +819,21 @@ margin-left: 90px;
 }
 
 h2 {
+
   font-size: 25px !important;
+
 }
 
 h3 {
+
   font-size: 20px !important;
+
 }
 
 .nousrencontrer p {
   
   width: 80%;
+
 }
 
 
